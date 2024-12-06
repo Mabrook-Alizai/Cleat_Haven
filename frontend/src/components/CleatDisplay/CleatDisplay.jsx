@@ -12,7 +12,9 @@ const CleatDisplay = ({category}) => {
       <h2>Game-Ready Cleats</h2>
       <div className="cleat-display-list">
         {cleat_list.map((item,index)=>{
-          return <CleatItem key={index} id={item._id} name={item.name} description={item.description} price={item.price} image={item.image}/>
+          if(category==="All" || category===item.category){
+            return <CleatItem key={index} id={item._id} name={item.name} description={item.description} price={item.price} image={item.image}/>
+          }
         })}
       </div>
     </div>

@@ -119,232 +119,232 @@ export const menu_list = [
 export const cleat_list = [
     {
         _id: "1",
-        name: "Greek salad",
+        name: "F50-1",
         image: food_1,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        description: "The Adidas F50 is a lightweight, speed-focused football cleat designed for agility, precision, and optimal performance on the pitch.",
+        category: "F50"
     },
     {
         _id: "2",
-        name: "Veg salad",
+        name: "F50-2",
         image: food_2,
         price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        description: "The Adidas F50 is a lightweight, speed-focused football cleat designed for agility, precision, and optimal performance on the pitch.",
+        category: "F50"
     }, {
         _id: "3",
-        name: "Clover Salad",
+        name: "F50-3",
         image: food_3,
         price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        description: "The Adidas F50 is a lightweight, speed-focused football cleat designed for agility, precision, and optimal performance on the pitch.",
+        category: "F50"
     }, {
         _id: "4",
-        name: "Chicken Salad",
+        name: "F50-4",
         image: food_4,
         price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        description: "The Adidas F50 is a lightweight, speed-focused football cleat designed for agility, precision, and optimal performance on the pitch.",
+        category: "F50"
     }, {
         _id: "5",
-        name: "Lasagna Rolls",
+        name: "F50-5",
         image: food_5,
         price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        description: "The Adidas F50 is a lightweight, speed-focused football cleat designed for agility, precision, and optimal performance on the pitch.",
+        category: "F50"
     }, {
         _id: "6",
-        name: "Peri Peri Rolls",
+        name: "Phantom-1",
         image: food_6,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        description: "The Nike Phantom is a precision-engineered football cleat designed for creative playmakers, offering exceptional ball control, comfort, and agility on the pitch.",
+        category: "Phantom"
     }, {
         _id: "7",
-        name: "Chicken Rolls",
+        name: "Phantom-2",
         image: food_7,
         price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        description: "The Nike Phantom is a precision-engineered football cleat designed for creative playmakers, offering exceptional ball control, comfort, and agility on the pitch.",
+        category: "Phantom"
     }, {
         _id: "8",
-        name: "Veg Rolls",
+        name: "Phantom-3",
         image: food_8,
         price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        description: "The Nike Phantom is a precision-engineered football cleat designed for creative playmakers, offering exceptional ball control, comfort, and agility on the pitch.",
+        category: "Phantom"
     }, {
         _id: "9",
-        name: "Ripple Ice Cream",
+        name: "Phantom-4",
         image: food_9,
         price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        description: "The Nike Phantom is a precision-engineered football cleat designed for creative playmakers, offering exceptional ball control, comfort, and agility on the pitch.",
+        category: "Phantom"
     }, {
         _id: "10",
-        name: "Fruit Ice Cream",
+        name: "Phantom-5",
         image: food_10,
         price: 22,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        description: "The Nike Phantom is a precision-engineered football cleat designed for creative playmakers, offering exceptional ball control, comfort, and agility on the pitch.",
+        category: "Phantom"
     }, {
         _id: "11",
-        name: "Jar Ice Cream",
+        name: "Phantom-6",
         image: food_11,
         price: 10,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        description: "The Nike Phantom is a precision-engineered football cleat designed for creative playmakers, offering exceptional ball control, comfort, and agility on the pitch.",
+        category: "Phantom"
     }, {
         _id: "12",
-        name: "Vanilla Ice Cream",
+        name: "Mercurial Superfly",
         image: food_12,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        description: "The Nike Mercurial Superfly is a lightweight, high-speed football cleat featuring a dynamic fit collar and advanced traction for explosive performance on the pitch.",
+        category: "Mercurials"
     },
     {
         _id: "13",
-        name: "Chicken Sandwich",
+        name: "Mercurial Superfly",
         image: food_13,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        description: "The Nike Mercurial Superfly is a lightweight, high-speed football cleat featuring a dynamic fit collar and advanced traction for explosive performance on the pitch.",
+        category: "Mercurials"
     },
     {
         _id: "14",
-        name: "Vegan Sandwich",
+        name: "Vapor-1",
         image: food_14,
         price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        description: "The Nike Mercurial Vapor is a sleek, speed-optimized football cleat designed for lightweight comfort, explosive acceleration, and superior ball control on the pitch.",
+        category: "Vapor"
     }, {
         _id: "15",
-        name: "Grilled Sandwich",
+        name: "Vapor-2",
         image: food_15,
         price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        description: "The Nike Mercurial Vapor is a sleek, speed-optimized football cleat designed for lightweight comfort, explosive acceleration, and superior ball control on the pitch.",
+        category: "Vapor"
     }, {
         _id: "16",
-        name: "Bread Sandwich",
+        name: "Vapor-3",
         image: food_16,
         price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        description: "The Nike Mercurial Vapor is a sleek, speed-optimized football cleat designed for lightweight comfort, explosive acceleration, and superior ball control on the pitch.",
+        category: "Vapor"
     }, {
         _id: "17",
-        name: "Cup Cake",
+        name: "Puma-1",
         image: food_17,
         price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        description: "Puma football cleats are designed for speed and agility, offering lightweight comfort and advanced performance features for players on the pitch.",
+        category: "Puma"
     }, {
         _id: "18",
-        name: "Vegan Cake",
+        name: "Puma-2",
         image: food_18,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        description: "Puma football cleats are designed for speed and agility, offering lightweight comfort and advanced performance features for players on the pitch.",
+        category: "Puma"
     }, {
         _id: "19",
-        name: "Butterscotch Cake",
+        name: "Puma-3",
         image: food_19,
         price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        description: "Puma football cleats are designed for speed and agility, offering lightweight comfort and advanced performance features for players on the pitch.",
+        category: "Puma"
     }, {
         _id: "20",
-        name: "Sliced Cake",
+        name: "Puma-4",
         image: food_20,
         price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        description: "Puma football cleats are designed for speed and agility, offering lightweight comfort and advanced performance features for players on the pitch.",
+        category: "Puma"
     }, {
         _id: "21",
-        name: "Garlic Mushroom ",
+        name: "Puma-5",
         image: food_21,
         price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        description: "Puma football cleats are designed for speed and agility, offering lightweight comfort and advanced performance features for players on the pitch.",
+        category: "Puma"
     }, {
         _id: "22",
-        name: "Fried Cauliflower",
+        name: "Predator-1",
         image: food_22,
         price: 22,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        description: "The Adidas Predator is a football cleat known for its powerful control, featuring a striking design and advanced technology for enhanced grip and precision on the ball.",
+        category: "Predator"
     }, {
         _id: "23",
-        name: "Mix Veg Pulao",
+        name: "Predator-2",
         image: food_23,
         price: 10,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        description: "The Adidas Predator is a football cleat known for its powerful control, featuring a striking design and advanced technology for enhanced grip and precision on the ball.",
+        category: "Predator"
     }, {
         _id: "24",
-        name: "Rice Zucchini",
+        name: "Predator-3",
         image: food_24,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        description: "The Adidas Predator is a football cleat known for its powerful control, featuring a striking design and advanced technology for enhanced grip and precision on the ball.",
+        category: "Predator"
     },
     {
         _id: "25",
-        name: "Cheese Pasta",
+        name: "Predator-4",
         image: food_25,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        description: "The Adidas Predator is a football cleat known for its powerful control, featuring a striking design and advanced technology for enhanced grip and precision on the ball.",
+        category: "Predator"
     },
     {
         _id: "26",
-        name: "Tomato Pasta",
+        name: "Gripper-1",
         image: food_26,
         price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        description: "Gripper football cleats are designed to provide superior traction and stability on the field, featuring enhanced grip technology for better control and performance during intense play.",
+        category: "Grippers"
     }, {
         _id: "27",
-        name: "Creamy Pasta",
+        name: "Gripper-2",
         image: food_27,
         price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        description: "Gripper football cleats are designed to provide superior traction and stability on the field, featuring enhanced grip technology for better control and performance during intense play.",
+        category: "Grippers"
     }, {
         _id: "28",
-        name: "Chicken Pasta",
+        name: "Gripper-3",
         image: food_28,
         price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        description: "Gripper football cleats are designed to provide superior traction and stability on the field, featuring enhanced grip technology for better control and performance during intense play.",
+        category: "Grippers"
     }, {
         _id: "29",
-        name: "Buttter Noodles",
+        name: "Gripper-4",
         image: food_29,
         price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        description: "Gripper football cleats are designed to provide superior traction and stability on the field, featuring enhanced grip technology for better control and performance during intense play.",
+        category: "Grippers"
     }, {
         _id: "30",
-        name: "Veg Noodles",
+        name: "Legends-1",
         image: food_30,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        description: "The Nike Tiempo Legend is a classic football cleat known for its premium leather upper, offering superior comfort, durability, and control on the field.",
+        category: "Legends"
     }, {
         _id: "31",
-        name: "Somen Noodles",
+        name: "Legends-2",
         image: food_31,
         price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        description: "The Nike Tiempo Legend is a classic football cleat known for its premium leather upper, offering superior comfort, durability, and control on the field.",
+        category: "Legends"
     }, {
         _id: "32",
-        name: "Cooked Noodles",
+        name: "Legends-3",
         image: food_32,
         price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        description: "The Nike Tiempo Legend is a classic football cleat known for its premium leather upper, offering superior comfort, durability, and control on the field.",
+        category: "Legends"
     }
 ]
