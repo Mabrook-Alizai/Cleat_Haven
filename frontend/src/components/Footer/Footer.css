@@ -51,7 +51,7 @@
     .footer-content{
         display: flex;
         flex-direction: column;
-        gap: 335px;
+        gap: 35px;
     }
     .footer-copy-right{
         text-align: center;
