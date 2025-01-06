@@ -10,7 +10,6 @@ const port = 4000
 
 // middleware
 app.use(cors())
-app.use(express.urlencoded({ extended: true }));
 app.use(express.json())
 
 // DataBase Connection
@@ -18,6 +17,7 @@ connectDB();
 
 // api endpoint
 app.use("/api/cleat", cleatRouter)
+app.use("/images",express.static('uploads')) //mounted uploads to /image to load image on chrome
 
 app.get("/", (req,res) => {
     res.send("API working")
