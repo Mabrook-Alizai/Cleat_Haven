@@ -7,14 +7,14 @@ import multer from "multer";
 
 const addCleat = async (req,res) => {
     
-    //let image_filename = `${req.file.filename}`;
+    let image_filename = `${req.file.filename}`;
 
     const cleat = new cleatModel({
         name:req.body.name,
         description:req.body.description,
         price:req.body.price,
         category:req.body.category,
-        //image:image_filename
+        image:image_filename
     })
     try{
         await cleat.save();
@@ -40,7 +40,7 @@ const listCleat = async (req,res) => {
 const removeCleat = async (req,res) => {
     try {
         const cleat = await cleatModel.findById(req.body.id);
-        //fs.unlink(`uploads/${cleat.image}`,()=>{})
+        fs.unlink(`uploads/${cleat.image}`,()=>{})
 
         await cleatModel.findByIdAndDelete(req.body.id);
         res.json({success:true, message:"Cleat removed"})
