@@ -1,11 +1,14 @@
 import { createContext, useEffect, useState } from "react";
-import { cleat_list } from "../assets/assets";
+import axios from "axios";
 
 export const StoreContext = createContext(null)
 
 const StoreContextProvider = (props) => {
 
     const [cartItems,setCartItems] = useState({});
+    const url = "http://localhost:4000"
+    const [token,setToken] = useState("");
+    const [cleat_list,setCleatList] = useState([]);
 
     const addToCart = (itemId) => {
         if(!cartItems[itemId]){
@@ -31,13 +34,31 @@ const StoreContextProvider = (props) => {
         return totalAmount;
     }
 
+    const fetchCleatList = async () => {
+        const response = await axios.get(url+"/api/cleat/list")
+        setCleatList(response.data.data)
+    }
+
+    useEffect(()=>{
+        async function loadData() {
+            await fetchCleatList();
+            if (localStorage.getItem("token")) {
+                setToken(localStorage.getItem("token"))
+            }
+        }
+        loadData();
+    },[])
+
     const contextValue = {
         cleat_list,
         cartItems,
         setCartItems,
         addToCart,
         removeFromCart,
-        getTotalCartAmount
+        getTotalCartAmount,
+        url,
+        token,
+        setToken
     }
 
     return (
