@@ -4,6 +4,8 @@ import { connectDB } from "./config/db.js"
 import cleatRouter from "./routes/cleatRoute.js"
 import userRouter from "./routes/userRoute.js"
 import 'dotenv/config'
+import cartRouter from "./routes/cartRoute.js"
+import orderRouter from "./routes/orderRoute.js"
 
 
 // app config
@@ -21,6 +23,8 @@ connectDB();
 app.use("/api/cleat", cleatRouter)
 app.use("/images",express.static('uploads')) //mounted uploads to /image to load image on chrome
 app.use("/api/user",userRouter)
+app.use("/api/cart", cartRouter)
+app.use("/api/order", orderRouter)
 
 app.get("/", (req,res) => {
     res.send("API working")
@@ -29,5 +33,3 @@ app.get("/", (req,res) => {
 app.listen(port, ()=>{
     console.log(`Server started at http://localhost:${port}`)
 })
-
-// mongodb+srv://mabrook:lalaaaa@cluster0.ieyu0.mongodb.net/?
