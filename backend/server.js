@@ -10,14 +10,15 @@ import orderRouter from "./routes/orderRoute.js"
 
 // app config
 const app = express()
-const port = 4000
+const port = process.env.PORT || 4000; // Use Vercel's dynamic port or default to 4000 if testing locally
 
 // middleware
 app.use(cors({
-    origin:["https://deploy-mern-1whq.vercel.app"],
+    origin: ["https://deploy-mern-1whq.vercel.app", "https://your-admin-url.vercel.app"],
     methods: ["POST", "GET"],
     credentials: true
-}))
+}));
+
 app.use(express.json())
 
 // DataBase Connection
@@ -34,6 +35,6 @@ app.get("/", (req,res) => {
     res.send("API working")
 })
 
-app.listen(port, ()=>{
-    console.log(`Server started at http://localhost:${port}`)
-})
+app.listen(port, () => {
+    console.log(`Server started on port ${port}`);
+});
